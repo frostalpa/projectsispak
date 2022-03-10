@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.sistempakar.skripsiricky.tambahan.monsteraKT"
+    android:background="#6E7C7C">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="15sp">
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:background="#6E7C7C"
+                android:id="@+id/btn_back_monstera"
+                android:drawableLeft="@drawable/ic_baseline"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:text="Monstera Adansonii"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15sp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10sp">
+                <ImageView
+                    android:id="@+id/iv_monsteraAdansonii"
+                    android:layout_width="366dp"
+                    android:layout_height="204dp"
+                    android:src="@drawable/bg_monstera"/>
+                <TextView
+                    android:id="@+id/des_monstera"
+                    android:layout_marginTop="10sp"
+                    android:layout_below="@+id/iv_monsteraAdansonii"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\t\t\t\tJanda bolong adalah jenis tanaman hias tropis monstera yang tengah naik daun. Tanaman ini sedang diganderungi masyarakat dan biasa dipakai sebagai dekorasi ruangan bergaya minimalis atau skandinavia karena bentuknya yang dinilai memiliki estetika. Bernama ilmiah Monstera adansonii
+                    \n\t\t\t\tJanda bolong juga dikenal dengan dengan sebutan tanaman keju Swiss.Melansir United States Department of Agriculture Natural Resources Conservation Service di Jakarta, Senin (28/9/2020)\n\nklasifikasi ilmiah tanaman ini adalah sebagai berikut:
+                    \nKerajaan\t\t\t\t\t: Plantae
+                    \nSub kingdom\t\t: Tracheobionta
+                    \nDivisi\t\t\t\t\t\t\t\t: Magnoliophyta
+                    \nClass\t\t\t\t\t\t\t\t: Lilliopsida
+                    \nFamily\t\t\t\t\t\t\t: Araceae
+                    \nGenus\t\t\t\t\t\t\t: Monstera Adans\n\n
+Monstera adansonii memiliki daun dengan lubang berbentuk oval yang tidak beraturan dan daun hias yang bertepi penuh. Tanaman ini berasal dari Amerika Tengah dan Amerika Selatan. Monstera adansonii merupakan tanaman merambat dan cocok dijadikan tanaman teralis.\n
+Jika ditopang pada tiang, maka janda bolong akan tumbuh tinggi dengan daun semakin besar. Jika dijadikan tanaman hias, tanaman ini biasanya tingginya sekitar 1 meter. Akan tetapi, jika di alam, tinggi janda bolong dapat mencapai 2-4 meter.\n\t\t\t\tJanda bolong termasuk tanaman hias yang perawatannya sangat mudah. Cukup disiram 1-2 kali seminggu. Tanaman ini juga relatif tahan dengan serangan hama dan penyakit.
+    Tempat paling cocok adalah tanah berbasis gambut dalam lubang pot yang memiliki lubang drainase besar. Gambut mampu menahan kelembapan di dalam tanah tanpa harus tergenang air. Untuk menjaganya tetap tumbuh, tempelkan jari ke dalam tanah untuk melihat seberapa basah atau kering tanah tersebut. Jika hampir kering, maka sirami dan jangan biarkan janda bolong mengering seluruhnya."
+                    android:justificationMode="inter_word"
+                    android:textColor="@color/black"
+                    />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

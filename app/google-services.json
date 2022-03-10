@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "449142524348",
+    "project_id": "db-monstera-adansonii",
+    "storage_bucket": "db-monstera-adansonii.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:449142524348:android:12cfbe8bfacda7758703b9",
+        "android_client_info": {
+          "package_name": "com.sistempakar.skripsiricky"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "449142524348-5717897bjibr4am8hkh2uf6tpr0pr6ih.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzAgHuY-2FSb1q7JpPHZDcB1QOhee_xd0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "449142524348-5717897bjibr4am8hkh2uf6tpr0pr6ih.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

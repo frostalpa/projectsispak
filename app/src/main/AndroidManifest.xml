@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sistempakar.skripsiricky">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <uses-permission-sdk-23 android:name="android.permission.INTERNET"/>
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Skripsiricky">
+
+        <activity android:name=".Onboarding.KTonboarding1"/>
+        <activity android:name=".Onboarding.KTonboarding2"/>
+        <activity android:name=".Onboarding.KTonboarding3"/>
+        <activity android:name=".Onboarding.KTonboarding4"/>
+        <activity android:name=".tambahan.monsteraKT"/>
+        <activity android:name=".tambahan.daunbusukKT"/>
+        <activity android:name=".tambahan.busukfusariumKT"/>
+        <activity android:name=".tambahan.kutukapasKT"/>
+        <activity android:name=".Home.diagnosa.DiagnosariwayatKT"/>
+        <activity android:name=".Home.diagnosa.TestKT"/>
+        <activity android:name=".Home.diagnosa.HdiagnosaKT"/>
+        <activity android:name=".Home.Home" />
+        <activity android:name=".SplashScreenKT">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

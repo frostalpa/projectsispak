@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">skripsiricky</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string-array name="Hasil">
+        <item>Kutu Kapas</item>
+        <item>Spider Mite</item>
+        <item>Black Spot</item>
+        <item>Busuk Fusarium</item>
+        <item>Busuk Daun</item>
+    </string-array>
+
+    <string-array name="CF1">
+        <item>Sangat Baik 80%</item>
+        <item>Baik 60%</item>
+        <item>Normal 50%</item>
+        <item>Tidak Baik 40%</item>
+        <item>Sangat Tidak Baik 20%</item>
+    </string-array>
+    <string-array name="ask_diagnosa">
+        <item>Berapa Banyak Muncul Bintik Putih Pada Daun ?</item>
+        <item>Berapa Banyak Muncul Bintik Putih Pada Batang Tanaman ?</item>
+        <item>Berapa Banyak Telur Kutu di bawah daun?</item>
+        <item>Apakah Muncul Bercak Putih dan berbentuk serat kapas ?</item>
+        <item>Muncul telur di bawah daun?</item>
+        <item>Apakah Daun tanaman mengalami rusak?</item>
+        <item>Aapakah Daun tanaman rontok?</item>
+        <item>Apakah Muncul Terdapat bercak hitam pada tanaman? </item>
+        <item>Apakah Tanaman Terlihat Mengalami kekurang air?</item>
+        <item>Apakah Daun Tanaman Menguning ?</item>
+        <item>Apakag Bentuk Batang Tanaman Keriput ?</item>
+        <item>Apakah Daun Tanaman layu ?</item>
+        <item>Apakah Daun Tanaman Membusuk ?</item>
+        <item>Apakah Daun Mengeluarkan Lendir berwarna Coklat ?</item>
+        <item>Apakah Daun dan Batang Tanaman hancur seperti bubur ?</item>
+        <item>Apakah Tanaman Mengeluarkan Bau tak sedap ?</item>
+    </string-array>
+    </resources>

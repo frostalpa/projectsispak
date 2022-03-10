@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6E7C7C"
+    android:orientation="vertical"
+    tools:context=".Onboarding.KTonboarding1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15sp"
+        android:layout_marginRight="5sp"
+        android:gravity="end">
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_lewati"
+            android:text="lewati"
+            android:background="#6E7C7C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <GridLayout
+        android:columnCount="1"
+        android:rowCount="1"
+        android:alignmentMode="alignMargins"
+        android:columnOrderPreserved="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cardElevation="20dp"
+            app:cardCornerRadius="12dp"
+            android:layout_margin="12dp"
+            android:layout_marginTop="100dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:gravity="center"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Selamat Datang"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    android:textColor="@color/black"/>
+                <ImageView
+                    android:id="@+id/imgOB1"
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    android:src="@drawable/thinking"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hallo selamat datang dan terima kasih telah mencoba aplikasi ini"
+                    android:textAlignment="center"
+                    android:fontFamily="monospace"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_marginTop="15sp"
+                    android:id="@+id/btn_selanjutnya"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Selanjutnya"
+                    android:background="@drawable/shaperectangle"
+                    />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </GridLayout>
+
+</LinearLayout>
