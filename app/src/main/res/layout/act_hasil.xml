@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorGrey"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <GridLayout
+            android:layout_centerVertical="true"
+            android:columnCount="1"
+            android:rowCount="1"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15sp"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:id="@+id/LLke1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingLeft="16sp"
+                        android:paddingRight="16sp"
+                        android:paddingTop="16sp"
+                        android:textAlignment="center"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/txt_1"
+                            android:textAlignment="center"
+                            android:textSize="18sp"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:text="HASIL DIAGNOSA PENYAKIT"
+                            />
+                        <View
+                            android:layout_marginTop="10sp"
+                            android:id="@+id/garis1"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:background="#bbb"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:paddingLeft="16sp"
+                        android:paddingRight="16sp"
+                        android:id="@+id/LLke2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_marginTop="12dp"
+                            android:id="@+id/txt_jdlpenyakit"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:fontFamily="sans-serif"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            tools:text="Nama Penyakit"
+                            />
+                        <ImageView
+                            android:layout_marginTop="12dp"
+                            android:id="@+id/img_penyakit"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/bg_busuk_fusarium_rz"
+                            />
+                        <TextView
+                            android:layout_marginTop="12dp"
+                            android:id="@+id/txt_solusi"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:fontFamily="sans-serif"
+                            android:textColor="@color/black"
+                            android:textAlignment="textStart"
+                            android:text="@string/kutu_kapas"
+                            />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/border_radius"
+                            android:text="Simpan Data"/>
+                        <androidx.appcompat.widget.AppCompatButton
+
+                            android:layout_marginTop="12dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Diagnosa kembali"
+                            android:background="@drawable/border_radius"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </GridLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>
