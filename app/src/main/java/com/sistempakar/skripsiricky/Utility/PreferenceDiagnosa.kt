@@ -3,7 +3,7 @@ package com.sistempakar.skripsiricky.Utility
 import android.content.Context
 import android.content.SharedPreferences
 
-class PreferenceKT (val context: Context){
+class PreferenceDiagnosa(val context: Context){
     companion object {
         const val MEETING_PREF = "USER_PREF"
     }
@@ -15,6 +15,7 @@ class PreferenceKT (val context: Context){
         editor.putString(key, value)
         editor.apply()
     }
+
     fun getValues(key: String): String? {
         return sharedPref.getString(key, "")
     }

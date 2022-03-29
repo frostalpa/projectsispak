@@ -28,6 +28,7 @@
         <activity android:name=".Home.diagnosa.DiagnosariwayatKT"/>
         <activity android:name=".Home.diagnosa.TestKT"/>
         <activity android:name=".Home.diagnosa.HdiagnosaKT"/>
+        <activity android:name=".Home.diagnosa.SplashScreenDiagnosaKT"/>
         <activity android:name=".Home.Home" />
         <activity android:name=".SplashScreenKT">
             <intent-filter>

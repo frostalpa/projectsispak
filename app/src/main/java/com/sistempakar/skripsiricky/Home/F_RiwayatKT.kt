@@ -5,12 +5,11 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.firebase.database.*
 import com.sistempakar.skripsiricky.R
 import com.sistempakar.skripsiricky.Utility.PreferenceKT
-import com.sistempakar.skripsiricky.modal.Riwayat
+import com.sistempakar.skripsiricky.Model.riwayat
 import kotlinx.android.synthetic.main.fragment_riwayat.*
 
 // TODO: Rename parameter arguments, choose names that match
@@ -27,7 +26,7 @@ class F_RiwayatKT : Fragment() {
 
     private lateinit var preferences: PreferenceKT
     lateinit var mDatabase: DatabaseReference
-    private var dataList = ArrayList<Riwayat>()
+    private var dataList = ArrayList<riwayat>()
 
     // TODO: Rename and change types of parameters
     private var param1: String? = null
@@ -53,7 +52,7 @@ class F_RiwayatKT : Fragment() {
         super.onActivityCreated(savedInstanceState)
 
         preferences = PreferenceKT(requireActivity().applicationContext)
-        mDatabase = FirebaseDatabase.getInstance().getReference("Riwayat")
+        mDatabase = FirebaseDatabase.getInstance().getReference("riwayat")
 
         rv_riwayat.layoutManager = LinearLayoutManager(requireContext().applicationContext)
         getData()
@@ -66,12 +65,12 @@ class F_RiwayatKT : Fragment() {
                 dataList.clear()
                 for (getdataSnapshot in dataSnapshot.getChildren()) {
 
-                    val riwayat1 = getdataSnapshot.getValue(Riwayat::class.java!!)
+                    val riwayat1 = getdataSnapshot.getValue(riwayat::class.java!!)
                     dataList.add(riwayat1!!)
                 }
 
-                    rv_riwayat.adapter = ComingSoonAdapter(dataList) {
-                    }
+                rv_riwayat.adapter = ComingSoonAdapter(dataList) {
+                }
 
             }
 

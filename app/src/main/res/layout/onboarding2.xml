@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#6E7C7C"
     android:orientation="vertical"
     tools:context=".Onboarding.KTonboarding2">
     <LinearLayout
@@ -17,7 +16,7 @@
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/Btn_lewati2"
             android:text="lewati"
-            android:background="#6E7C7C"
+            android:background="@color/white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
     </LinearLayout>

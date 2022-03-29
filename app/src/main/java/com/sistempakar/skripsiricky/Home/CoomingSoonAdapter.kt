@@ -9,10 +9,10 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.sistempakar.skripsiricky.R
-import com.sistempakar.skripsiricky.modal.Riwayat
+import com.sistempakar.skripsiricky.Model.riwayat
 
-class ComingSoonAdapter(private var data: List<Riwayat>,
-                        private val listener: (Riwayat) -> Unit)
+class ComingSoonAdapter(private var data: List<riwayat>,
+                        private val listener: (riwayat) -> Unit)
     : RecyclerView.Adapter<ComingSoonAdapter.LeagueViewHolder>() {
 
     lateinit var ContextAdapter : Context
@@ -39,14 +39,13 @@ class ComingSoonAdapter(private var data: List<Riwayat>,
 
         private val tvImage: ImageView = view.findViewById(R.id.iv_poster_image)
 
-        fun bindItem(data: Riwayat, listener: (Riwayat) -> Unit, context : Context, position : Int) {
+        fun bindItem(data: riwayat, listener: (riwayat) -> Unit, context : Context, position : Int) {
 
-            tvTitle.text = data.Nama
-            tvGenre.text = data.Deskripsi
-            tvRate.text = data.Solusi
+            tvTitle.text = data.Nama_penyakit
+            tvGenre.text = data.desksingkat
 
             Glide.with(context)
-                .load(data.Gambar)
+                .load(data.Img)
                 .into(tvImage);
 
             itemView.setOnClickListener {

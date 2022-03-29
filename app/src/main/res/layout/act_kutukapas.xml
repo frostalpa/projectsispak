@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.core.widget.NestedScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.sistempakar.skripsiricky.tambahan.kutukapasKT"
-    android:background="#6E7C7C">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.sistempakar.skripsiricky.tambahan.kutukapasKT">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -18,7 +17,7 @@
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:background="#6E7C7C"
+                android:background="@color/white"
                 android:id="@+id/btn_back_kutu"
                 android:drawableLeft="@drawable/ic_baseline"/>
             <TextView
@@ -30,36 +29,59 @@
                 android:textColor="@color/black"
                 android:text="Kutu Kapas"/>
         </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_margin="15sp">
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:padding="10sp">
-                <ImageView
-                    android:id="@+id/iv_monsteraAdansonii"
-                    android:layout_width="366dp"
-                    android:layout_height="204dp"
-                    android:src="@drawable/bg_kutukapas" />
-                <TextView
-                    android:id="@+id/des_monstera"
-                    android:layout_marginTop="20sp"
-                    android:layout_below="@+id/iv_monsteraAdansonii"
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alignmentMode="alignMargins"
+            android:columnCount="1"
+            android:columnOrderPreserved="false"
+            android:rowCount="1">
+            <androidx.cardview.widget.CardView
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:id="@+id/cv_kutukapas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:clickable="true"
+                android:contextClickable="true"
+                android:layout_gravity="center_vertical"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="0dp"
+                app:cardBackgroundColor="@color/teal_200">
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="\t\t\tKutu kapas atau mealy bug tergeolong serangga kecil.
+                    android:layout_height="match_parent"
+                    android:layout_margin="15sp">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="10sp">
+                        <ImageView
+                            android:id="@+id/iv_monsteraAdansonii"
+                            android:layout_width="366dp"
+                            android:layout_height="204dp"
+                            android:src="@drawable/bg_kutukapas" />
+                        <TextView
+                            android:id="@+id/des_monstera"
+                            android:layout_marginTop="20sp"
+                            android:layout_below="@+id/iv_monsteraAdansonii"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="\t\t\tKutu kapas atau mealy bug tergeolong serangga kecil.
                     dinamakan kutu kapas karena hewan ini memiliki tubuh yang berwarna putih.
                     \n\t\t\twalaupun kecil, kutu kapas yang berkerumunan banyak ditanaman bisa menyebabkan
                     tanaman mati. Serangan ini dilakukan dengan cara menghisap cairan tanaman.
                     \n\t\t\tciri serangan hama ini ditandai dengan adanya bintik-bintik berwarna putih
                     di permukaan bawah daun dan batang tanaman."
-                    android:textColor="@color/black"
-                    android:justificationMode="inter_word"
-                    />
-            </RelativeLayout>
+                            android:textColor="@color/black"
+                            android:justificationMode="inter_word"
+                            />
+                    </RelativeLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </GridLayout>
 
-        </LinearLayout>
     </LinearLayout>
 </androidx.core.widget.NestedScrollView>

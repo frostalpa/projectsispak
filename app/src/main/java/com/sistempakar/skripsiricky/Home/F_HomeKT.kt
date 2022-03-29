@@ -6,6 +6,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.google.firebase.database.ktx.database
+import com.google.firebase.ktx.Firebase
 import com.sistempakar.skripsiricky.R
 import com.sistempakar.skripsiricky.tambahan.busukfusariumKT
 import com.sistempakar.skripsiricky.tambahan.daunbusukKT
@@ -30,6 +32,12 @@ class F_HomeKT : Fragment() {
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
+        btn_coba.setOnClickListener{
+            val database = Firebase.database
+            val myRef = database.getReference("message")
+
+            myRef.setValue("Hello, World!")
+        }
         imgMonstera.setOnClickListener{
             val intent = Intent (this@F_HomeKT.context, monsteraKT::class.java)
             startActivity(intent)

@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="#6E7C7C"
     tools:context="com.sistempakar.skripsiricky.Home.F_RiwayatKT">
     <LinearLayout
         android:layout_width="match_parent"

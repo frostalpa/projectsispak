@@ -16,22 +16,61 @@
         <item>Tidak Baik 40%</item>
         <item>Sangat Tidak Baik 20%</item>
     </string-array>
+    
+    <string name="kutu_kapas">
+            Ada beberapa cara menangani penyakit ini yaitu manual dan sistematis, untuk manual bisa
+            dilakukan dengan menyemprotkan air bertekanan tinggii. Jika cara ini tidak berhasil
+            lakukan cara sistematis dengan menyemprokan insektisida dengan dosis sesuai yang tertera
+            pada kemasan. Untuk pencegahan bisa dengan memindahkan tanaman sesekalli ke tempat yang
+            mendapatkan cahaya matahari langsung, jika tanaman belum terlalu besar.
+    </string>
+    <string name="spider_mite">
+            cara menyemprotkan cairan insektisida atau akarisida seperti Kelthene dan lainnya,
+            untuk penggunaan disarankan untuk menyemprotkan cairan insektisida atau akarisida
+            ini sesuai dengan dosis yang dianjurkan dan tertera pada kemasan masing masing produk.
+    </string>
+    <string name="black_spot">
+            Atasi dengan memperbaiki sirkulasi udara sehingga dapat menurunkan
+            kelembaban. Buang bagian tanaman yang terserang penyakit. Bila serangan
+            sudah sangat hebat dapat disemprot dengan fungisida (dithane, benlate,
+            atau vondozeb).
+    </string>
+    <string name="busuk_fusarium">
+            buang bagian tanamanyang terserang. Lalu, oleskan penutup luka dan semprotkan
+            fungisida untuk membuuh spora yang masih tertinggal. Hindari menggunakan pot
+            atau media tanam lama karena bisa menyebabkan munculnya kembali penyakit ini.
+            Pencegahan lainnya, pastikan media tanam porous dan hindari terlalu sering menyiram monstera.
+    </string>
+    <string name="busuk_daun">
+            segera pisahkan tanaman yang terserang dari tanaman lain yang masih sehat. Lalu,
+            semprotkan bakterisida dengan dosisi seperti pada tertera kemasan. Namun, jika
+            tidak bisa ditangani dan tanaman akhirnya mati, segera musnahkan tanaman tersebut.
+            Untuk media tanam dan pot jangan digunakan kembali karena kemungkinan bakteri masih
+            berdiam di tempat tersebut.
+    </string>
+
+
     <string-array name="ask_diagnosa">
-        <item>Berapa Banyak Muncul Bintik Putih Pada Daun ?</item>
-        <item>Berapa Banyak Muncul Bintik Putih Pada Batang Tanaman ?</item>
-        <item>Berapa Banyak Telur Kutu di bawah daun?</item>
-        <item>Apakah Muncul Bercak Putih dan berbentuk serat kapas ?</item>
-        <item>Muncul telur di bawah daun?</item>
-        <item>Apakah Daun tanaman mengalami rusak?</item>
-        <item>Aapakah Daun tanaman rontok?</item>
-        <item>Apakah Muncul Terdapat bercak hitam pada tanaman? </item>
-        <item>Apakah Tanaman Terlihat Mengalami kekurang air?</item>
-        <item>Apakah Daun Tanaman Menguning ?</item>
-        <item>Apakag Bentuk Batang Tanaman Keriput ?</item>
-        <item>Apakah Daun Tanaman layu ?</item>
-        <item>Apakah Daun Tanaman Membusuk ?</item>
-        <item>Apakah Daun Mengeluarkan Lendir berwarna Coklat ?</item>
-        <item>Apakah Daun dan Batang Tanaman hancur seperti bubur ?</item>
-        <item>Apakah Tanaman Mengeluarkan Bau tak sedap ?</item>
+        <item>Berapa Banyak Bintik Putih Pada Daun Monstera Adansonii ?</item>
+        <item>Berapa banyak Bintik Putih Pada Batang Tanaman ?</item>
+        <item>Berapa Banyak Telur Kutu Pada Bawah Daun Tanaman?</item>
+        <item>Berapa Banyak Serat Kapas Terlihat Pada Tanama ?</item>
+        <item>Berapa Banyak Kerusakan Yang  Terjadi Pada Daun ?</item>
+        <item>Terlihat Telur Serangga Di Bawah Daun ?</item>
+        <item>Seberapa Banyak Serangga kecil terlihat di tanaman ?</item>
+        <item>Seberapa Banyak Daun tanaman Mengalami Kerusakan ?</item>
+        <item>Seberapa Sering Daun Tanaman Rontok ?</item>
+        <item>Seberapa Jauh Daun Mengalami Menguning ?</item>
+        <item>Seberapa Banyak Daun Mengalami Kelayuan ?</item>
+        <item>Seberapa Banyak Bercak Hitam Muncul Pada Tanaman ?</item>
+        <item>Seberapa Sering Tanah Disiram ?</item>
+        <item>Berapa Banyak Spora Jamur Terlihat Pada Tanaman ?</item>
+        <item>Seberapa Parah Batang Tanaman Terlihat Mengering ?</item>
+        <item>Seberapa Parah Daun Mengalami Tingkat Kebusukan ?</item>
+        <item>Aapakah Daun Sering Mengeluarkan Lendir ?</item>
+        <item>Apakah Daun atau Batang Tanaman Terlihat Hancur ?</item>
+        <item>Seberapa Sering Tanaman Mengeluarkan Bau Tak Sedap ?</item>
+        <item>Seberapa Parah Daun Mengering ?</item>
+
     </string-array>
     </resources>

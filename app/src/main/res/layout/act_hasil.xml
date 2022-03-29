@@ -4,12 +4,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@color/colorGrey"
     android:layout_height="match_parent"
     android:gravity="center">
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_gravity=""
         >
         <GridLayout
             android:layout_centerVertical="true"
@@ -20,7 +20,8 @@
             android:alignmentMode="alignMargins"
             android:columnOrderPreserved="false"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical">
             <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -29,6 +30,7 @@
                 app:cardElevation="6dp"
                 app:cardCornerRadius="12dp"
                 android:layout_margin="12dp"
+                app:cardBackgroundColor="@color/teal_200"
                 >
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -60,7 +62,7 @@
                             android:id="@+id/garis1"
                             android:layout_width="match_parent"
                             android:layout_height="2dp"
-                            android:background="#bbb"/>
+                            android:background="@color/white"/>
                     </LinearLayout>
                     <LinearLayout
                         android:paddingLeft="16sp"
@@ -93,8 +95,8 @@
                             android:layout_height="match_parent"
                             android:fontFamily="sans-serif"
                             android:textColor="@color/black"
-                            android:textAlignment="textStart"
                             android:text="@string/kutu_kapas"
+                            android:justificationMode="inter_word"
                             />
                     </LinearLayout>
                     <LinearLayout
@@ -103,12 +105,14 @@
                         android:orientation="vertical"
                         android:padding="16dp">
                         <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btn_SimpanData"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:background="@drawable/border_radius"
-                            android:text="Simpan Data"/>
+                            android:text="Simpan Data"
+                            />
                         <androidx.appcompat.widget.AppCompatButton
-
+                            android:id="@+id/btn_DiagnosaKembali"
                             android:layout_marginTop="12dp"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
